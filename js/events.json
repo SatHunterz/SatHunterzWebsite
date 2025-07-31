@@ -1,11 +1,11 @@
 {
   "events": {
     "1": {
-        "status": true,
-        "event_name": "BTCPrague Hunt",
-        "start_date": "2025.06.20.",
-        "end_date": "2025.06.21.",
-        "prize": 915801,
+        "status": false,
+        "event_name": "Online Hunt - X and Nostr",
+        "start_date": "2025.08.08.",
+        "end_date": "2025.08.15.",
+        "prize": 1000000,
         "address": "coming soon"
     }
   }

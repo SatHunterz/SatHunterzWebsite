@@ -111,7 +111,7 @@ h1, h2, h3, h4, h5 {
     border: 3px solid #fff;
 }
 #on-going:before {
-    content:'Ongoing Hunt';
+    content:'Join the Hunt!';
     position: absolute;
     bottom: 100%;
     left: 20px;
