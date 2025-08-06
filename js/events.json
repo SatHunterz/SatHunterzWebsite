@@ -1,12 +1,12 @@
 {
   "events": {
     "1": {
-        "status": false,
+        "status": true,
         "event_name": "Online Hunt - X and Nostr",
         "start_date": "2025.08.08.",
         "end_date": "2025.08.15.",
-        "prize": 1000000,
-        "address": "coming soon"
+        "prize": 87640,
+        "address": "bc1q732jcvfsvac24hp6rfcll73gcwmql7yqeurt73"
     }
   }
 }
