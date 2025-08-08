@@ -8,14 +8,12 @@ $(document).ready(function() {
               const startDateStr = event.start_date.replace(/\.$/, '');
               const [startYear, startMonth, startDay] = startDateStr.split('.');
               const startDate = new Date(startYear, startMonth - 1, startDay);
+
+              nextEvent = event;
+              nextEvent.start_date_display = event.start_date;
+              nextEvent.end_date_display = event.end_date;
               
-              if (startDate >= today) {
-                  if (!nextEvent || startDate < new Date(nextEvent.start_date.replace(/\.$/, '').split('.').join('/'))) {
-                      nextEvent = event;
-                      nextEvent.start_date_display = event.start_date;
-                      nextEvent.end_date_display = event.end_date;
-                  }
-              }
+    
           }
       });
       
