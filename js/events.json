@@ -1,7 +1,7 @@
 {
   "events": {
     "1": {
-        "status": true,
+        "status": false,
         "event_name": "Online Hunt - X and Nostr",
         "start_date": "2025.08.08.",
         "end_date": "2025.08.15.",
